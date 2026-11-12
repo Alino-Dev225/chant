@@ -2,7 +2,7 @@
 
 ## Déploiement GitHub Pages
 
-Le site est construit et déployé automatiquement sur GitHub Pages à chaque mise à jour de la branche `main`. Dans les paramètres du dépôt, sélectionnez **Settings > Pages > Build and deployment > Source: GitHub Actions**.
+Le site est construit et déployé automatiquement sur GitHub Pages à chaque mise à jour de la branche `main`. Dans les paramètres du dépôt, sélectionnez **Settings > Pages > Build and deployment > Source: GitHub Actions**, puis lancez une première fois le workflow **Deploy to GitHub Pages** depuis l'onglet **Actions**.
 
 ## Formulaire de contact
 
