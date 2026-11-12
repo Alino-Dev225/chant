@@ -4,8 +4,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-   plugins: [
+  base: '/chant/',
+  plugins: [
     react(),
-    tailwindcss(), // <-- 2. Ajouter le plugin ici
+    tailwindcss(),
   ],
 })

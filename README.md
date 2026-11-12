@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+## Déploiement GitHub Pages
+
+Le site est construit et déployé automatiquement sur GitHub Pages à chaque mise à jour de la branche `main`. Dans les paramètres du dépôt, sélectionnez **Settings > Pages > Build and deployment > Source: GitHub Actions**.
+
 ## Formulaire de contact
 
 Le composant de contact envoie les messages avec EmailJS. Pour l'activer :

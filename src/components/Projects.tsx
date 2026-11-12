@@ -3,9 +3,6 @@ import Title from "./Title"
 import img1 from '../assets/projects/1.png';
 import img2 from '../assets/projects/2.png';
 import img3 from '../assets/projects/3.png';
-import img4 from '../assets/projects/4.png';
-import img5 from '../assets/projects/5.png';
-import img6 from '../assets/projects/6.png';
 import { Video } from "lucide-react";
 import { CodeXml } from 'lucide-react';
 
