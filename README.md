@@ -4,6 +4,8 @@
 
 Le site est construit et déployé automatiquement sur GitHub Pages à chaque mise à jour de la branche `main`. Dans les paramètres du dépôt, sélectionnez **Settings > Pages > Build and deployment > Source: GitHub Actions**, puis lancez une première fois le workflow **Deploy to GitHub Pages** depuis l'onglet **Actions**.
 
+Sur Netlify, laissez le champ **Base directory** vide et utilisez `npm run build` comme commande de build. Vite utilisera automatiquement la racine du domaine ; le chemin `/chant/` est réservé au déploiement GitHub Pages.
+
 ## Formulaire de contact
 
 Le composant de contact envoie les messages avec EmailJS. Pour l'activer :
